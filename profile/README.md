@@ -3,7 +3,7 @@ TODO: Add description
 
 ### Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
-- [Front End Blazor Application](https://github.com/Survey-2024/SurveyFrontEnd)
+- [Front End Blazor Application (coming soon)]()
 - [API Application (coming soon)]()
 - [Function Application (coming soon)]()
 
