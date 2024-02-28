@@ -24,6 +24,7 @@ Imagine if this project was organized like a long-form version of interactive la
 ### Not Required
 - The UI does not need to be styled (form over function)
 - Code perfection is not a goal
+- Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
 
 ## Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
