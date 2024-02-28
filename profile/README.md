@@ -1,13 +1,37 @@
 ## Survey Microservices Project
-TODO: Add description
+This is a learning project primarily to see if a Platform as a Service (PaaS) ecosystem can serve as a solution for a basic survey submission requirement.  
 
-### Github Repositories (Imported from Azure DevOps)
+The user experience is simple: download a survey in PDF format, fill it out offline, and upload it. Resources deployed in Azure will utilize Artificial Intelligence (AI) to process the survey answers. Additional resources will persist those answers in a database. 
+
+Reviewers of surveys will be able to read survey answers without having to download the submitted PDF files. 
+
+Application administrators using the submission application as if they are users will be notified when a survey is processed and ready for review.
+
+Imagine if this project was organized like a long-form version of interactive lab with business and technical requirements.
+
+### Business Requirements
+- As a submitter, I want to fill out a PDF offline and submit it
+- As a reviewer, I want to review the data of surveys without downloading and reviewing pdfs
+- As an Application Admin, I want to be notified when a Survey has been stored in the database after submission
+
+### Technical Requirements
+- Responsibilities should be divided (i.e. front-end application should not contain database logic)
+- Must contain an AI component
+- Use PaaS resources exclusively
+- Maximize cost savings even if it means sacrificing performance (personally trying not to spend a lot of money on a side project 😉)
+- No sensitive information exposed in apps or pipelines
+
+### Not Required
+- The UI does not need to be styled (form over function)
+- Code perfection is not a goal
+
+## Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
 - [Front End Blazor Application (coming soon)]()
 - [API Application (coming soon)]()
 - [Function Application (coming soon)]()
 
-### Azure DevOps Project
+## Azure DevOps Project
 [Survey ADO (private)](https://dev.azure.com/cjdaley/Survey/) 
 
 
