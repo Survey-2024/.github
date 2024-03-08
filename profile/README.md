@@ -35,6 +35,33 @@ Imagine if this project was organized like a long-form version of interactive la
 This is the "live" project where the build/deploy pipelines are operational. Also, all the work management is there via Boards.
 [Survey ADO (private)](https://dev.azure.com/cjdaley/Survey/) 
 
+## Flow
+1. Front-end app - User downloads template survey pdf to fill out offline
+2. Front-end app - User uploads survey that is stored in a Storage Account
+3. Function App - Processes the document
+   1. Sends survey to Document Intelligence for json extraction
+   2. Archives Survey
+   3. Stores data via API app call
+ 4. API app after storing data sends a message to Service Bus for consumption
+ 5. Front-end app - Consumes Service Bus message
+ 6. Front-end app - User reviews survey content
+
+![image](https://github.com/Survey-2024/.github/assets/13341430/b3ab7dac-b419-48b3-8a96-2db35df94565)
+
+## Sensitive Information
+Sensitive Information (credentialed endpoints, database account passwords, etc) are stored in Key Vault. The App Configuration resource pulls data from Key Vault and made accessible to all applications via a single endpoint.
+
+![image](https://github.com/Survey-2024/.github/assets/13341430/7b24e5a1-e585-4ca7-9910-a90fe95aa896)
+
+## Additional Resources
+- Application Insights resources are deployed for monitoring
+- Log Analytics workspace centralizes monitoring
+- API Management service for on-demand API calls
+
+## CI/CD Pipelines
+All applications have pipelines that build and deploy to Azure resources.
+
+![image](https://github.com/Survey-2024/.github/assets/13341430/9eec969e-6829-4738-beec-b16a1cc2a5ef)
 
 
 <!--
