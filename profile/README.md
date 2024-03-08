@@ -22,7 +22,7 @@ Imagine if this project was organized like a long-form version of interactive la
 ### Not Required
 - The UI does not need to be styled (form over function)
 - Code perfection is not a goal
-- Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
+- Infrastructural Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
 - Security Roles not required, (i.e. all users will receive a notification when a survey is stored with a link to review)
 
 ## Github Repositories (Imported from Azure DevOps)
