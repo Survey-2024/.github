@@ -5,8 +5,6 @@ The user experience is simple: download a survey in PDF format, fill it out offl
 
 Reviewers of surveys will be able to read survey answers without having to download the submitted PDF files. 
 
-Application administrators using the submission application as if they are users will be notified when a survey is processed and ready for review.
-
 Imagine if this project was organized like a long-form version of interactive lab with business and technical requirements.
 
 ### Business Requirements
