@@ -23,14 +23,16 @@ Imagine if this project was organized like a long-form version of interactive la
 - The UI does not need to be styled (form over function)
 - Code perfection is not a goal
 - Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
+- Security Roles not required, (i.e. all users will receive a notification when a survey is stored with a link to review)
 
 ## Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
-- [Front End Blazor Application (coming soon)]()
-- [API Application (coming soon)]()
-- [Function Application (coming soon)]()
+- [Front End Blazor Application](https://github.com/Survey-2024/SurveyFrontEnd)
+- [API Application](https://github.com/Survey-2024/SurveyApi)
+- [Function Application](https://github.com/Survey-2024/DocParser)
 
 ## Azure DevOps Project
+This is the "live" project where the build/deploy pipelines are operational. Also, all the work management is there via Boards.
 [Survey ADO (private)](https://dev.azure.com/cjdaley/Survey/) 
 
 
