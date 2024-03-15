@@ -27,8 +27,8 @@ Imagine if this project was organized like a long-form version of interactive la
 
 ## Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
-- [Front End Blazor Application](https://github.com/Survey-2024/SurveyFrontEnd)
 - [API Application](https://github.com/Survey-2024/SurveyApi)
+- [Front End Blazor Application](https://github.com/Survey-2024/SurveyFrontEnd)
 - [Function Application](https://github.com/Survey-2024/DocParser)
 
 ## Azure DevOps Project
