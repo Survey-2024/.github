@@ -14,14 +14,14 @@ Imagine if this project was organized like a long-form version of interactive la
 
 ### Technical Requirements
 - Responsibilities should be divided (i.e. front-end application should not contain database logic)
-- Must contain an AI component
+- Must contain an AI component (because management says so)
 - Use PaaS resources exclusively
-- Maximize cost savings even if it means sacrificing performance (personally trying not to spend a lot of money on a side project 😉)
 - No sensitive information exposed in apps or pipelines
+- Minimize costs even if it means sacrificing performance (personally trying not to spend a lot of money on a side project 😉)
 
 ### Not Required
 - The UI does not need to be styled (form over function)
-- Code perfection is not a goal
+- Code perfection is not a goal (i.e. not trying to catch all error conditions like we would in a professional effort)
 - Infrastructural Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
 - Security Roles not required, (i.e. all users will receive a notification when a survey is stored with a link to review)
 
