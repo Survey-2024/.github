@@ -65,6 +65,12 @@ All applications have pipelines that build and deploy to Azure resources.
 
 ![image](https://github.com/Survey-2024/.github/assets/13341430/9eec969e-6829-4738-beec-b16a1cc2a5ef)
 
+<br/><br/><br/><br/>
+
+### Media Resources Used
+- https://www.canva.com/ (Survey Icon)
+- https://recordscreen.io/ (Video Capture)
+- https://www.veed.io/ (Video Editing / Export to GIF)
 
 <!--
 
