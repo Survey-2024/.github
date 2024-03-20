@@ -32,7 +32,7 @@ Imagine if this project was organized like a long-form version of interactive la
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
 - [API Application](https://github.com/Survey-2024/SurveyApi)
 - [Front End Blazor Application](https://github.com/Survey-2024/SurveyFrontEnd)
-- [Function Application](https://github.com/Survey-2024/DocParser)
+- [Serverless Function Application](https://github.com/Survey-2024/DocParser)
 
 ## Azure DevOps Project
 This is the "live" project where the build/deploy pipelines are operational. Also, all the work management is there via Boards.
