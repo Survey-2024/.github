@@ -1,5 +1,6 @@
 ## Survey Microservices Project
-![Survey Video (1)](https://github.com/Survey-2024/.github/assets/13341430/0eaaaa35-9328-4c5a-bd48-4368e1dd281f)
+![Survey Video](https://github.com/Survey-2024/.github/assets/13341430/e73fb007-92da-4d86-920a-3379fe23daf9)
+
 
 This is a learning project primarily to see if a Platform as a Service (PaaS) ecosystem can serve as a solution for a basic survey submission requirement.  
 
