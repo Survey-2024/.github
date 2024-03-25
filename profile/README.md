@@ -1,12 +1,13 @@
 ## Survey Microservices Project
+This is a learning project where a deployed Platform as a Service (PaaS) ecosystem serves as a solution for a survey submission/consumption scenario.  
+
+Survey submitters download a survey in PDF format, fill it out offline, and upload it. Artificial Intelligence (AI) extracts the answers based on a trained model and persists them in a database. Survey reviewers can read survey answers without having to download and read the submitted PDF files.
+
+For any inquiries or demo requests, feel free to reach out either here or [LinkedIn](https://www.linkedin.com/in/cjd78/)!
+
+
 ![Survey Video](https://github.com/Survey-2024/.github/assets/13341430/3b8fd52f-78a3-4b75-a165-eabf0e2e43a6)
 
-
-This is a learning project primarily to see if a Platform as a Service (PaaS) ecosystem can serve as a solution for a basic survey submission requirement.  
-
-The user experience is simple: download a survey in PDF format, fill it out offline, and upload it. Resources deployed in Azure will utilize Artificial Intelligence (AI) to process the survey answers. Additional resources will persist those answers in a database. 
-
-Reviewers of surveys will be able to read survey answers without having to download the submitted PDF files. 
 
 Imagine if this project was organized like a long-form version of interactive lab with business and technical requirements.
 
@@ -36,6 +37,7 @@ Imagine if this project was organized like a long-form version of interactive la
 
 ## Azure DevOps Project
 This is the "live" project where the build/deploy pipelines are operational. Also, all the work management is there via Boards.
+
 [Survey ADO (private)](https://dev.azure.com/cjdaley/Survey/) 
 
 ## Flow
