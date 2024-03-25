@@ -68,7 +68,13 @@ All applications have pipelines that build and deploy to Azure resources.
 
 ![image](https://github.com/Survey-2024/.github/assets/13341430/9eec969e-6829-4738-beec-b16a1cc2a5ef)
 
-<br/><br/><br/><br/>
+<br/><br/>
+
+## Resources Deployed in Azure
+
+[Resources Inventory](https://github.com/Survey-2024/.github/blob/bcb4309fbc2b98641f54a27c54d27531cae353fc/profile/Deployed%20Resources.md)
+
+<br/><br/>
 
 ### Media Resources Used
 - https://www.canva.com/ (Survey Icon)
