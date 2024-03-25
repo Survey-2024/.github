@@ -2,14 +2,14 @@
 This is a list containing all the resources deployed into Azure to support this project.
 
 1. [Identity](#identity)
-1. [Data/Storage](#)
-1. [Applications](#)
-1. [AI](#)
-1. [Monitoring](#)
-1. [Consumption/Billing](#)
-1. [API Management](#)
-1. [Configuration](#)
-1. [Security](#)
+1. [Data/Storage](#data/storage)
+1. [Applications](#applications)
+1. [AI](#ai)
+1. [Monitoring](#monitoring)
+1. [Consumption/Billing](#consumption/billing)
+1. [API Management](#api-management)
+1. [Configuration](#configuration)
+1. [Security](#security)
 1. [Communication](#communication)
 
 ​ 
