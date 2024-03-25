@@ -59,6 +59,9 @@ This is a list containing all the resources deployed into Azure to support this 
             1. Uploads 
                 1. Temporary storage for user uploaded surveys prior to processing (normally should be empty) 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## Applications 
 1. SurveyDB (not an App Service, not deployed in Azure) 
     1. Visual Studio SQL Server Database Project  
@@ -72,9 +75,15 @@ This is a list containing all the resources deployed into Azure to support this 
     1. Serverless application that acts as an orchestrator between the front-end application and the database API.  
     1. Polls for new uploads, sends PDFs to AI Document Intelligence, massages and sends results to database API. 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## AI 
 1. Ai-docreader 
     1. Azure Resource that manages the Optical Character Recognition (OCR) of submitted PDFs  
+
+[🔝](#survey-microservices-resources-inventory)
+
 
 ## Monitoring 
 1. Application Insights 
@@ -83,6 +92,9 @@ This is a list containing all the resources deployed into Azure to support this 
     1. SurveyDocUploader-i 
     1. Log Analytics Workspace 
         1. DefaultWorkspace-146f2515-80c9-4a78-ae5d-452e9a3d7255-EUS 
+
+[🔝](#survey-microservices-resources-inventory)
+
 
 ## Consumption/Billing 
 1. App Service Plans 
@@ -93,13 +105,22 @@ This is a list containing all the resources deployed into Azure to support this 
     1. ASP-rgdocreader-90e7 
         1. Consumption plan for fn-docparser 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## API Management 
 1. SurveyApiManagement 
     1. Allows test runs against api methods 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## Configuration 
 1. Appconfig-survey 
     1. Stores Key Vault References for consumption within applications 
+
+[🔝](#survey-microservices-resources-inventory)
+
 
 ## Security 
 1. Kv-surveycreds 
@@ -114,6 +135,11 @@ This is a list containing all the resources deployed into Azure to support this 
                 1. Required to Generate OpenAI Spec Document (swagger.json) in the API DevOps pipeline for deployment to API Management 
             1. SurveySP 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## Communication 
 1. Sbsurvey 
-    1. Service Bus Namespace used to send notifications between API app and Front-end App 
+    1. Service Bus Namespace used to send notifications between API app and Front-end App
+  
+[🔝](#survey-microservices-resources-inventory)
