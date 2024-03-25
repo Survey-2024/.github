@@ -20,7 +20,7 @@ Imagine if this project was organized like a long-form version of interactive la
 - Responsibilities should be divided (i.e. front-end application should not contain database logic)
 - Must contain an AI component (because management says so)
 - Use PaaS resources exclusively
-- No sensitive information exposed in apps or pipelines
+- No sensitive information exposed in apps or pipelines (i.e. resource access keys)
 - Minimize costs even if it means sacrificing performance (personally trying not to spend a lot of money on a side project 😉)
 
 ### Not Required
