@@ -23,11 +23,12 @@ Imagine if this project was organized like a long-form version of interactive la
 - No sensitive information exposed in apps or pipelines (i.e. resource access keys)
 - Minimize costs even if it means sacrificing performance (personally trying not to spend a lot of money on a side project 😉)
 
-### Not Required
+### Not Required or Out of Scope
 - The UI does not need to be styled (form over function)
 - Code perfection is not a goal (i.e. not trying to catch all error conditions like we would in a professional effort)
 - Infrastructural Security, although important, is not a requirement (i.e. VNets, Private IP's, etc.)
 - Security Roles not required, (i.e. all users will receive a notification when a survey is stored with a link to review)
+- Infrastructure as Code (IaC) (i.e. can deploy resources via portal)
 
 ## Github Repositories (Imported from Azure DevOps)
 - [Database Schema Project](https://github.com/Survey-2024/SurveyDB)
