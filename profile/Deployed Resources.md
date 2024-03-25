@@ -39,6 +39,9 @@ This is a list containing all the resources deployed into Azure to support this 
         1. Key Vault Secrets User (kv-surveycreds) 
         1. Azure Service Bus Data Receiver (rg-docreader) 
 
+[🔝](#survey-microservices-resources-inventory)
+
+
 ## Data/Storage 
 1. SQL Server 
     1. Sqlserver0978 
