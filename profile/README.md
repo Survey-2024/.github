@@ -1,7 +1,7 @@
 ## Survey Microservices Project
 This is a learning project where a deployed Platform as a Service (PaaS) ecosystem serves as a solution for a survey submission/consumption scenario.  
 
-Survey submitters download a survey in PDF format, fill it out offline, and upload it. Artificial Intelligence (AI) extracts the answers based on a trained model and persists them in a database. Survey reviewers can read survey answers without having to download and read the submitted PDF files.
+Survey submitters download a survey in PDF format, fill it out offline, and upload it. An Artificial Intelligence (AI) custom-trained machine-learning model extracts the answers and persists them in a database. Survey reviewers can read survey answers without having to download and read the submitted PDF files.
 
 For any inquiries or demo requests, feel free to reach out either here or [LinkedIn](https://www.linkedin.com/in/cjd78/)!
 
