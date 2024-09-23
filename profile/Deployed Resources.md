@@ -21,7 +21,7 @@ This is a list containing all the resources deployed into Azure to support this 
         1. Bound to an Azure DevOps Service Connection named Survey Key Vault 
         1. Granted Role of Key Vault Secrets User on the kv-surveycreds Key Vault 
 1. SurveyPipelineSP 
-    1. Used as an authenticated identity to deploy resources into Azure via Azure  
+    1. Used as an authenticated identity to deploy resources into Azure via Azure DevOps
 
 ### Managed Identities 
 1. ai-docreader 
